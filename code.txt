@@ -1,0 +1,45 @@
+import time
+import os
+
+print("Принтер Рипитер")
+print("Телеграм: @felrexSpy\n")
+time.sleep(3)
+os.system("clear")
+print(".")
+time.sleep(0.3)
+os.system("clear")
+print("..")
+time.sleep(0.3)
+os.system("clear")
+print("...")
+time.sleep(0.3)
+os.system("clear")
+print("Введите сообщение")
+user = input("~ $ ")
+os.system("clear")
+print("Сколько раз это сделать?")
+ch = int(input("~ $ "))
+os.system("clear")
+print("Начинаю генерировать текст, зажмите чтобы скопировать.")
+time.sleep(2.3)
+os.system("clear")
+txt = 0
+ct = 0
+txt = user
+ct = ch
+time.sleep(0.1)
+ch = 1
+qh = 0
+qh = "."
+for i in range(ct):
+    #print(ch + qh + txt)
+    #print("".join([ch, qh]), txt)
+    print("{}{}".format(ch, qh), txt)
+    time.sleep(0.05)
+    ch += 1
+time.sleep(9999999)
+#def repeat():
+#    print()
+#    if ch <= ct:
+#        repeat()
+#repeat()
